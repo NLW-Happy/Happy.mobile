@@ -1,4 +1,5 @@
 import { StyleSheet, Dimensions } from 'react-native';
+import Constants from '../../constants';
 
 const styles = StyleSheet.create({
   container: {
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
   },
 
   mapContainer: {
-    borderRadius: 20,
+    borderRadius: Constants.borderRadius,
     overflow: 'hidden',
     borderWidth: 1.2,
     borderColor: '#B3DAE2',
@@ -79,14 +80,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#E6F7FB',
     borderWidth: 1,
     borderColor: '#B3DAE2',
-    borderRadius: 20,
+    borderRadius: Constants.borderRadius,
   },
 
   scheduleItemGreen: {
     backgroundColor: '#EDFFF6',
     borderWidth: 1,
     borderColor: '#A1E9C5',
-    borderRadius: 20,
+    borderRadius: Constants.borderRadius,
   },
 
   scheduleText: {
@@ -106,7 +107,7 @@ const styles = StyleSheet.create({
 
   contactButton: {
     backgroundColor: '#3CDC8C',
-    borderRadius: 20,
+    borderRadius: Constants.borderRadius,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',

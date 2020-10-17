@@ -1,4 +1,5 @@
 import { StyleSheet, Dimensions } from 'react-native';
+import Constants from '../../constants';
 
 const styles = StyleSheet.create({
   container: {
@@ -14,8 +15,8 @@ const styles = StyleSheet.create({
     width: 160,
     height: 46,
     paddingHorizontal: 16,
-    backgroundColor: 'rgba(255,255,255,0.8)',
-    borderRadius: 16,
+    backgroundColor: 'rgba(255,255,255,0.9)',
+    borderRadius: Constants.borderRadius,
     justifyContent: 'center',
     elevation: 2,
   },
@@ -32,7 +33,7 @@ const styles = StyleSheet.create({
     bottom: 32,
 
     backgroundColor: '#FFF',
-    borderRadius: 20,
+    borderRadius: Constants.borderRadius,
     height: 56,
     paddingLeft: 24,
 
@@ -51,7 +52,7 @@ const styles = StyleSheet.create({
     width: 56,
     height: 56,
     backgroundColor: '#15c3d6',
-    borderRadius: 20,
+    borderRadius: Constants.borderRadius,
     justifyContent: 'center',
     alignItems: 'center',
   },
