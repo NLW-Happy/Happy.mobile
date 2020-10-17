@@ -11,7 +11,7 @@ import styles from './style';
 
 const OrphanageDetails: React.FC = () => {
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView showsVerticalScrollIndicator={false} style={styles.container}>
       <View style={styles.imagesContainer}>
         <ScrollView horizontal pagingEnabled>
           <Image
