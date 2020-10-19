@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
 
   nextButtonText: {
-    fontFamily: 'Nunito_800ExtraBold',
+    fontFamily: Constants.fonts.Nunito_800ExtraBold,
     fontSize: 16,
     color: '#FFF',
   },

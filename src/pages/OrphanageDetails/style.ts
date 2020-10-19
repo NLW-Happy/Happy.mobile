@@ -23,11 +23,11 @@ const styles = StyleSheet.create({
   title: {
     color: '#4D6F80',
     fontSize: 30,
-    fontFamily: 'Nunito_700Bold',
+    fontFamily: Constants.fonts.Nunito_700Bold,
   },
 
   description: {
-    fontFamily: 'Nunito_600SemiBold',
+    fontFamily: Constants.fonts.Nunito_600SemiBold,
     color: '#5c8599',
     lineHeight: 24,
     marginTop: 16,
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   },
 
   routesText: {
-    fontFamily: 'Nunito_700Bold',
+    fontFamily: Constants.fonts.Nunito_700Bold,
     color: '#0089a5',
   },
 
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   },
 
   scheduleText: {
-    fontFamily: 'Nunito_600SemiBold',
+    fontFamily: Constants.fonts.Nunito_600SemiBold,
     fontSize: 16,
     lineHeight: 24,
     marginTop: 20,
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   },
 
   contactButtonText: {
-    fontFamily: 'Nunito_800ExtraBold',
+    fontFamily: Constants.fonts.Nunito_800ExtraBold,
     color: '#FFF',
     fontSize: 16,
     marginLeft: 16,

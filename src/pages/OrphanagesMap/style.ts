@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   },
 
   calloutText: {
-    fontFamily: 'Nunito_700Bold',
+    fontFamily: Constants.fonts.Nunito_700Bold,
     color: '#0089a5',
   },
 
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
 
   footerText: {
-    fontFamily: 'Nunito_700Bold',
+    fontFamily: Constants.fonts.Nunito_700Bold,
     color: '#8fa7b3',
   },
 
