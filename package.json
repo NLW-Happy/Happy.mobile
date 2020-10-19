@@ -5,15 +5,18 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "lint": "eslint --fix-dry-run"
   },
   "dependencies": {
     "@expo-google-fonts/nunito": "^0.1.0",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/native": "^5.7.6",
     "@react-navigation/stack": "^5.9.3",
+    "axios": "^0.20.0",
     "expo": "~39.0.2",
     "expo-font": "~8.3.0",
+    "expo-image-picker": "~9.1.0",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
@@ -32,7 +35,7 @@
     "@types/react-native": "~0.63.2",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
-    "eslint": "^7.11.0",
+    "eslint": "6.8.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-import-resolver-typescript": "^2.3.0",

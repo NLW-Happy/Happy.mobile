@@ -29,6 +29,19 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "sort-imports": [
+      2,
+      {
+        "ignoreCase": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": [
+          "none",
+          "all",
+          "multiple",
+          "single"
+        ]
+      }
+    ],
     "prettier/prettier": "error",
     "no-use-before-define": "off",
     "import/extensions": [
