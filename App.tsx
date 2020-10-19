@@ -9,6 +9,7 @@ import {
 
 import { AppLoading } from 'expo';
 import Routes from './src/routes';
+import ScreenDeveloping from './src/components/Confirmation';
 
 const App: React.FC = () => {
   let [fontsLoaded] = useFonts({
@@ -20,8 +21,8 @@ const App: React.FC = () => {
   if (!fontsLoaded) {
     return <AppLoading />;
   }
-
-  return <Routes />;
+  return <ScreenDeveloping onPress={() => {}} />;
+  // return <Routes />;
 };
 
 export default App;
