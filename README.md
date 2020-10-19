@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Happy" title="Happy" src="logo.png" width="20%" />
+    <img alt="Happy" title="Happy" src=".github/logo.png" width="20%" />
 </h1>
 
 <p align="center">
@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img alt="Happy" src="happy.png" width="100%">
+  <img alt="Happy" src=".github/happy.png" width="100%">
 </p>
 
 ## ⚙️ Tecnologias
