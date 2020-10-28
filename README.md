@@ -20,8 +20,6 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=2304D361&labelColor=2304D361" alt="PRs welcome!" />
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/NLW-Happy/Happy.web?color=%2304D361">
-
   <a href="https://rocketseat.com.br">
     <img alt="Made by Happy" src="https://img.shields.io/badge/made%20by-Happy-%2304D361">
   </a>
