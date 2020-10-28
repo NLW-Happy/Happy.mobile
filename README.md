@@ -27,7 +27,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
   <a href="https://github.com/NLW-Happy/Happy.web/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/NLW-Happy/Happy.web?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/NLW-Happy/Happy.mobile?style=social">
   </a>
 </p>
 
